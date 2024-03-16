@@ -6,6 +6,16 @@ tieres gennem Visual Studio gennem VejregisterOpslag.sln.
 Dette vil åbne API-oversigten i Swagger.
 
 Løsningen har to API'er:
+* VejregisterOpslag/FindEgenskaber
+* VejregisterOpslag/FindVeje
+
+Forberedelse
+-----------------------------------------------------------
+Inden applikationen kører skal datafilen placeres på stien:
+                    C:\Vejregister.txt
+Alternativt kan stien rettes i linke 20 og 301 i filen:
+        Controllers/VejregisterOpslagController.cs
+-----------------------------------------------------------
 
 FindEgenskaber
 -----------------------------------------------------------
