@@ -1,0 +1,6 @@
+@VejregisterOpslag_HostAddress = http://localhost:5260
+
+GET {{VejregisterOpslag_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
